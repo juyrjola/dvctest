@@ -1,5 +1,16 @@
 outs:
-- md5: 8817797ef5f9b878dde64427c54b19d0
-  size: 1390
+- md5: 005454e9f71be3c2a7e58ecf2b25b2fe
+  size: 3216
+  hash: md5
   path: test.parquet
-  remote: kausal-s3-private
+meta:
+  name:
+    de-CH: Einwohner/innen
+    en: Population
+  identifier: test
+  metrics:
+  - id: population
+    label:
+      de-CH: Population
+  units:
+    population: cap
